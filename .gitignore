@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Tool caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+
+# Local env/config secrets
+.env
+.env.*
+!.env.example
+
+# Audio artifacts (keep repo small)
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.flac
+recordings/
+outputs/
+tts/
+# explicit local test artifacts
+mic.wav
+reply.mp3
+test.mp3
