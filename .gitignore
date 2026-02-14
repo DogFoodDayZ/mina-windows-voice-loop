@@ -28,6 +28,10 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Python
+__pycache__/
+*.py[cod]
+
 # Logs and temp
 *.log
 *.tmp
@@ -39,6 +43,7 @@ Thumbs.db
 !.env.example
 
 # Audio artifacts (keep repo small)
+.venv/
 *.wav
 *.mp3
 *.m4a
@@ -47,7 +52,3 @@ Thumbs.db
 recordings/
 outputs/
 tts/
-# explicit local test artifacts
-mic.wav
-reply.mp3
-test.mp3
